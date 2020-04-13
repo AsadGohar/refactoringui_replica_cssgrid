@@ -1,0 +1,136 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+nav{
+  background-color: #5978f3;
+  height: 40px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li a {
+    
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  text-align: center;
+ 
+  text-decoration: none;
+    
+}
+
+.menu {
+ 
+  display: flex;
+}
+.logo{
+
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  
+}
+.svg-size{
+  width:200px ;
+}
+
+.headings{
+  margin-top: 20px;
+  
+  width: 800px;
+}
+
+.content{
+  display: flexbox;
+  padding-top:100px ;
+  padding-left: 20vw;
+}
+.heading-text{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4vw;
+
+}
+
+.arrow-text{
+  margin-top: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+
+}
+
+.arrow{
+  color: #9ddbff!important;
+}
+
+
+.p-text{
+  color: #359c9c;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2vw;
+}
+
+.strong-text{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2vw;
+}
+.item{
+  
+  font-size: 16px;
+  margin-top: 12px;
+  margin-left: 40px;
+  /* display: block;
+  width: auto;
+  float: right; */
+}
+
+.landing{
+  height: 610px;
+  background-image: url(https://refactoringui.com/img/hero-pattern.svg);
+  background-repeat:repeat;
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .menu {
+    
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  nav{
+    background-color: #5978f3;
+    height: 150px;
+  }
+  li  {
+    
+    border-bottom: 1px solid white ;
+  }
+
+  .item{
+  
+    font-size: 16px;
+    margin-top: 12px;
+    padding-left: 30%;
+    padding-bottom: 4px;
+    margin-left: 0px;
+    /* display: block;
+    width: auto;
+    float: right; */
+  }
+
+  .logo{
+
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 30%;
+    margin-left: 0px;
+    float: left;
+  }
+}
